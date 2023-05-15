@@ -8,8 +8,9 @@ function openModal(projectName) {
         case "boxxle":
             document.getElementById("project-name").innerHTML = "Boxxle <br> <br>Boxxle est un projet réalisé dans le cadre de mon apprentissage du JavaScript. Réalisé en groupe de 2, il s'agit d'un jeu de puzzle où le joueur doit déplacer des caisses afin de les placer sur des emplacements définis. Le jeu est composé de plusieurs niveaux, de difficulté croissante.";
             break;
+        case "hangman web":
+          document.getElementById("project-name").innerHTML = "hangman web <br> <br>Hangman web est un projet réalisé dans le cadre du golang avec lier avec les langage html/css. Réalisé en groupe de 2, il s'agit du jeu du pendu où le joueur doit trouver le mot caché. Le jeu est composé de plusieurs niveaux, de difficulté croissante.";
     }
-    
 }
 
 function closeModal() {

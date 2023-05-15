@@ -68,6 +68,9 @@ nav a:hover {
 	margin: 5px;
 }
 
+.projet {
+	cursor: pointer;
+}
 
 form label {
 	display: block;
@@ -125,7 +128,7 @@ footer {
   
   .modal-content {
 	font-family: sans-serif;
-	background-color: white;
+	background-color: #180d2b;
 	margin: 15% auto;
 	padding: 20px;
 	border: 1px solid #888;
@@ -134,7 +137,7 @@ footer {
   }
 
   .close {
-	background-color: white;
+	background-color: #180d2b;
 	margin: 99% ;
 	width: 80%;
 	right: 0;
@@ -156,3 +159,9 @@ footer {
 .contact:active {
 	filter: drop-shadow(16px 16px 20px red) invert(75%);
 }
+
+.logoProject {
+	height: 100px;
+	width: 100px;
+}
+
