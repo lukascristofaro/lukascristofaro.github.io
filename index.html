@@ -1,9 +1,65 @@
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf8">
-    <title> Ma première page web </title>
-  </head>
-  <body>
-    Ma première page web est la plus belle des pages web !
-  </body>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Lukas CRISTOFARO</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Lukas CRISTOFARO</h1>
+	</header>
+	<div class="container">
+		<main>
+			<section id="about">
+				<h2>À propos de moi</h2>
+				<p>Jeune étudiant en informatique motivé et passionné par les nouvelles technologies. </p>
+				<p>Actuellement en première année d'un programme universitaire en informatique, j'ai acquis des compétences de base en programmation, en conception de logiciels et en analyse de données.<br> Je suis également capable de travailler en équipe et de communiquer efficacement avec les membres de mon équipe.<br> Je suis avide d'apprendre de nouvelles compétences et de relever de nouveaux défis pour atteindre mes objectifs professionnels.<br> J'ai également une bonne capacité d'adaptation et je suis capable de travailler sous pression pour respecter les délais.</p>
+			</section>
+			<section id="projects">
+				<h2>Mes projets</h2>
+				<ul>
+					<li>
+						<h3 onclick="openModal('groupie tracker')">groupie tracker</h3>
+						<p>Il s'agit d'un site web permettant de suivre les concerts de quelque artistes. </p>
+					</li>
+					<li>
+						<h3 onclick="openModal('boxxle')">boxxle</h3>
+						<p>Description du projet 2</p>
+					</li>
+					<li>
+						<h3 onclick="openModal('hangman web')">hangman web</h3>
+						<p>Description du projet 3</p>
+					</li>
+				</ul>
+			</section>
+			<section id="contact">
+				<h2>Contact</h2>
+				<button class="contact" onclick="window.location.href='https://github.com/lukascristofaro';">
+					<img src="img/reseaux/github.png">
+				</button>
+				<button class="contact" onclick="window.location.href='https://www.linkedin.com/in/lukas-cristofaro-223029274/';">
+					<img src="img/reseaux/linkedin.png">
+				</button>
+				<button class="contact" onclick="window.location.href='mailto:lukas.cristofaro@ynov.com';">
+					<img src="img/reseaux/mail.png">
+				</button>
+			</section>
+
+			<!-- Modal -->
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+				<span class="close" onclick="closeModal()">&times;</span>
+				<p id="project-name"></p>
+				</div>
+			</div>
+		</main>
+	</div>
+
+
+	<footer>
+		<p>© CRISTOFARO 2023</p>
+	</footer>
+</body>
 </html>
