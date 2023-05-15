@@ -1,10 +1,10 @@
 /* Styles généraux */
 body {
 	background-image: url("img/background.jpg");
-	color:#f0e8e6;
 	background-size: cover;
-	background-position: center center;
 	background-repeat: no-repeat;
+	background-position: center;
+	color:#f0e8e6;
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
@@ -75,6 +75,7 @@ nav a:hover {
 	margin-right: 20px; /* Espacement entre les projets */
 	vertical-align: top; /* Alignement vertical des projets */
 	text-align: center; /* Centrer le contenu des projets */
+
   }
   
 
@@ -114,7 +115,7 @@ form input[type="submit"]:hover {
 
 /* Styles du pied de page */
 footer {
-	background-color: rgba(51,51,51,0.5); /* couleur avec transparence */
+	background-color: rgba(51,51,51,1); /* couleur avec transparence */
 	color: #fff;
 	padding: 20px;
 	text-align: center;
@@ -167,7 +168,12 @@ footer {
 }
 
 .logoProject {
-	height: 100px;
-	width: 100px;
+	cursor: pointer;
 }
 
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+  }
