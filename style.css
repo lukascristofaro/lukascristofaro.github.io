@@ -52,7 +52,9 @@ nav a:hover {
 /* Styles de la section "Mes projets" */
 #projects {
 	padding: 20px;
-}
+	text-align: center; /* Pour centrer les projets horizontalement */
+  }
+  
 
 #projects ul {
 	margin: 0;
@@ -69,8 +71,12 @@ nav a:hover {
 }
 
 .projet {
-	cursor: pointer;
-}
+	display: inline-block;
+	margin-right: 20px; /* Espacement entre les projets */
+	vertical-align: top; /* Alignement vertical des projets */
+	text-align: center; /* Centrer le contenu des projets */
+  }
+  
 
 form label {
 	display: block;
