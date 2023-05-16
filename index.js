@@ -20,9 +20,9 @@ function openModal(projectName) {
           
           // Créez une chaîne de caractères HTML avec les balises <img> et leurs attributs
           var imagesHTML = "Boxxle est un projet réalisé dans le cadre de mon apprentissage du JavaScript. Réalisé en groupe de 2, il s'agit d'un jeu de puzzle où le joueur doit déplacer des caisses afin de les placer sur des emplacements définis. Le jeu est composé de plusieurs niveaux, de difficulté croissante."+
-                            '<br><img src="/img/boxxle/boxxle1.png" >' +
-                           '<img src="/img/boxxle/boxxle2.png" >' +
-                           '<img src="/img/boxxle/boxxle3.png" >' ;
+                            '<br><img src="img/boxxle/boxxle1.PNG" >' +
+                           '<img src="img/boxxle/boxxle2.PNG" >' +
+                           '<img src="img/boxxle/boxxle3.PNG" >' ;
           
           // Insérez la chaîne de caractères HTML dans l'élément imageContainer
           imageContainer.innerHTML = imagesHTML;    
