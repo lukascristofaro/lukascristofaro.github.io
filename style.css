@@ -44,15 +44,20 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+#nom {
+	margin-left: 1%;
+}
+
 /* Styles de la section "À propos de moi" */
 #about {
+	margin-left: 5%;
 	padding: 20px;
 }
 
 /* Styles de la section "Mes projets" */
 #projects {
 	padding: 20px;
-	text-align: center; /* Pour centrer les projets horizontalement */
+	margin-left: 5%;
   }
   
 
@@ -157,6 +162,9 @@ footer {
 	overflow-y: scroll;
 }
 
+#contact {
+	margin-left: 5%;
+}
 .contact {
 	border: transparent;
 	background-color: transparent;
@@ -177,3 +185,12 @@ footer {
 	left: 0;
 	width: 100%;
   }
+
+#language {
+	margin-left: 5%;
+}
+
+.logoLanguage {
+
+	margin-right: 10px;
+}

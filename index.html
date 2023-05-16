@@ -8,30 +8,43 @@
 </head>
 <body>
 	<header>
-		<h1>Lukas CRISTOFARO</h1>
+		<h1 id="nom">Lukas CRISTOFARO</h1>
 	</header>
 	<div class="container">
 		<main>
 			<section id="about" class="about">
 				<h2>À propos de moi</h2>
 				<p>Jeune étudiant en informatique motivé et passionné par les nouvelles technologies. </p>
-				<p>Actuellement en première année d'un programme universitaire en informatique, j'ai acquis des compétences de base en programmation, en conception de logiciels et en analyse de données.<br> Je suis également capable de travailler en équipe et de communiquer efficacement avec les membres de mon équipe.<br> Je suis avide d'apprendre de nouvelles compétences et de relever de nouveaux défis pour atteindre mes objectifs professionnels.<br> J'ai également une bonne capacité d'adaptation et je suis capable de travailler sous pression pour respecter les délais.</p>
+				<p>Actuellement en première année d'un programme universitaire en informatique, j'ai acquis des compétences<br>de base en programmation, en conception de logiciels et en analyse de données. Je suis également capable<br> de travailler en équipe et de communiquer efficacement avec les membres de mon équipe. Je suis avide<br> d'apprendre de nouvelles compétences et de relever de nouveaux défis pour atteindre mes objectifs professionnels.<br> J'ai également une bonne capacité d'adaptation et je suis capable de travailler sous pression pour respecter les délais.</p>
 			</section>
 			<section id="projects">
 				<h2>Mes projets</h2>
 				<div class="projet">
 					<div onclick="openModal('groupie tracker')" class="projet">
-						<h3 >groupie tracker</h3>
+						<h3 >Groupie Tracker</h3>
 						<img class="logoProject" src="img/logo/gpt.png">
 					</div>
 					<div onclick="openModal('boxxle')" class="projet">
-						<h3 >boxxle</h3>
+						<h3 >Boxxle</h3>
 						<img class="logoProject" src="img/logo/boxxle.png">
 					</div>
 					<div class="projet" onclick="openModal('hangman web')">
-						<h3>hangman web</h3>
+						<h3>Hangman Web</h3>
 						<img class="logoProject" src="img/logo/stickman.png">
 					</div>
+					<div class="projet" onclick="openModal('cookie cliker')">
+						<h3>Cookie Clicker</h3>		
+						<img calss="logoProject" src="img/logo/cookie.png">				
+					</div>
+			</section>
+			<section id="language">
+				<h2>Language</h2>
+				<div>
+						<img class="logoLanguage" src="img/logo_langage/golang.png">
+						<img class="logoLanguage" src="img/logo_langage/python.png">
+						<img class="logoLanguage" src="img/logo_langage/html-css.png">
+						<img class="logoLanguage" src="img/logo_langage/javascript.png">
+				</div>
 			</section>
 			<section id="contact">
 				<br><br><br><br><br>
@@ -46,7 +59,6 @@
 					<img src="img/reseaux/mail.png">
 				</button>
 			</section>
-
 			<!-- Modal -->
 			<div id="myModal" class="modal">
 				<div class="modal-content">
