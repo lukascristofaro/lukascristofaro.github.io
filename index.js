@@ -43,7 +43,7 @@ function openModal(projectName) {
           var imageContainer = document.getElementById("image-container");
           
           // Créez une chaîne de caractères HTML avec les balises <img> et leurs attributs
-          var imagesHTML = "Cookie Cliker <br> <br>Cookie Cliker est un projet réalisé dans le cadre de l'apprentissage du java dans la creation d'une application android. il s'agit d'un jeu Cliker ou le but est de cliker sur l'ecran pour avoir le plus de point afin de pouvoir acheter different item dans l'appliaction."+
+          var imagesHTML = "Cookie Cliker <br> <br>Cookie Cliker est un projet réalisé dans le cadre de l'apprentissage du java dans la creation d'une application android. il s'agit d'un jeu Cliker ou le but est de cliker sur l'ecran pour avoir le plus de point afin de pouvoir acheter different item dans l'application."+
                             '<br><img src="/img/cookieCliker/cC1.png" alt="Selection d\'un niveau">' +
                             '<img src="/img/cookieCliker/cC2.png" alt="Point de vue en jeu">'
           
